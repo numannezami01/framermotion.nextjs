@@ -1,0 +1,47 @@
+ 
+.landing{
+    position: relative;
+    height: 110vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+.landing img{
+    object-fit: cover;
+}
+
+.content{
+    position:  absolute;
+    left: 70%;
+    top: 25%;
+    color: white;
+}
+.content>img{
+    margin-bottom:10%;
+}
+.content>p{
+    font-size:30px;
+
+}
+.sliderContainer {
+    position: absolute;
+    top: calc(100vh - 300px);
+    top: 55%;
+}
+
+.slider{
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    display: flex;
+    white-space: nowrap;
+    color: white;
+}
+ 
+
+ .slider p {
+    font-size: 35vh;
+    position: absolute;
+    margin: 0px;
+    font-weight: 400;
+    padding-right: 50px;
+}

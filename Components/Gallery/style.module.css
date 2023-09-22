@@ -1,0 +1,21 @@
+
+
+
+.gallery{
+    width: 100vw;
+   min-height: 150vh;
+    /* background-color: red; */
+    flex-direction: column;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.gallery >h1{
+    opacity: 0.5;
+    font-family: mont;
+    text-transform: uppercase;
+}
+ 
