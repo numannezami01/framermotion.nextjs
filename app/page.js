@@ -20,7 +20,7 @@ import LocomotiveScroll from 'locomotive-scroll'
 
   useEffect(() => {
     const locomotivescroll = new LocomotiveScroll();
-  })   
+  },[])   
   
   return(
     <div className={style.main}>
